@@ -7,3 +7,4 @@ COPY ${JAR_FILE} /app.jar
 COPY app.sh /
 RUN chmod 0755 /app.sh
 CMD /app.sh
+EXPOSE 8585
