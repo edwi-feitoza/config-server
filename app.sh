@@ -1,0 +1,1 @@
+java -Xms512M -Xmx512M -noverify -XX:TieredStopAtLevel=1 -jar app.jar --server.port=8585
